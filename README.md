@@ -2,8 +2,9 @@
 Exploring and Visualizing a Simple Dataset Iris.csv. 
 
 
-##🌸Iris Dataset – Exploratory Data Analysis (EDA)
-###📌 Project Overview
+## 🌸Iris Dataset – Exploratory Data Analysis (EDA)
+
+### 📌 Project Overview
 
 This project performs initial data exploration and visualization on the famous Iris dataset using Python.
 The goal is to understand the structure, distribution, and relationships between features using statistical analysis and visualizations.
@@ -18,7 +19,7 @@ The goal is to understand the structure, distribution, and relationships between
 
 - Seaborn – for enhanced data visualization
 
-###📂 Dataset Loading
+### 📂 Dataset Loading
 
 - The dataset was loaded using the Pandas library.
 
@@ -30,27 +31,27 @@ The goal is to understand the structure, distribution, and relationships between
 
 - .describe() → to get statistical summary (mean, std, min, max, quartiles)
 
-###🧹 Data Cleaning & Preparation
+### 🧹 Data Cleaning & Preparation
 
 -Column names were standardized for consistency.
 
 -The species column was converted from object type to categorical data type to improve memory usage and clarity.
 
-###📊 Data Visualization
+### 📊 Data Visualization
 
-Several visualizations were created to analyze the dataset:
+**Several visualizations were created to analyze the dataset:**
 
-####🔹 Bar Plot & Scatter Plot
+#### 🔹 Bar Plot & Scatter Plot
 
 **Used to study relationships between:**
 
-Sepal length & width
+- Sepal length & width
 
-Petal length & width
+- Petal length & width
 
-Helped in comparing measurements across different species.
+- Helped in comparing measurements across different species.
 
-####🔹 Histogram
+#### 🔹 Histogram
 
 Used to analyze the distribution of numerical features such as:
 
@@ -62,7 +63,7 @@ Used to analyze the distribution of numerical features such as:
 
 - Petal width
 
-####🔹 Box Plot
+#### 🔹 Box Plot
 
 Used to identify outliers in the dataset.
 
@@ -70,11 +71,11 @@ The Interquartile Range (IQR) method was applied to detect outliers mathematical
 
 ###📈 Grouped Analysis
 
-Calculated the average sepal length for each flower species using group-by operations.
+- Calculated the average sepal length for each flower species using group-by operations.
 
-This helped in comparing flower characteristics across species.
+- This helped in comparing flower characteristics across species.
 
-##✅ Key Findings
+## ✅ Key Findings
 
 - Petal length and width show clear variation among different species.
 
@@ -86,7 +87,7 @@ This helped in comparing flower characteristics across species.
 - Iris-versicolor and Iris-virginica are overllaping and they are difficult to distinguish.
 - Feature distributions are mostly normal with slight skewness in some variables.
 
-##📌 Conclusion
+## 📌 Conclusion
 
 **This project demonstrates basic data analysis skills including:**
 
