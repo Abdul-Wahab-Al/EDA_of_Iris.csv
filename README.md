@@ -69,7 +69,7 @@ Used to identify outliers in the dataset.
 
 The Interquartile Range (IQR) method was applied to detect outliers mathematically.
 
-###📈 Grouped Analysis
+### 📈 Grouped Analysis
 
 - Calculated the average sepal length for each flower species using group-by operations.
 
