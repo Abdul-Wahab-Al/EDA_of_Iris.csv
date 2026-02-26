@@ -33,9 +33,9 @@ The goal is to understand the structure, distribution, and relationships between
 
 ### 🧹 Data Cleaning & Preparation
 
--Column names were standardized for consistency.
+- Column names were standardized for consistency.
 
--The species column was converted from object type to categorical data type to improve memory usage and clarity.
+- The species column was converted from object type to categorical data type to improve memory usage and clarity.
 
 ### 📊 Data Visualization
 
